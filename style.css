@@ -1,0 +1,88 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(170, 170, 170, 0.47);
+    font-family: var(--ff-primary);
+    font-weight: var(--fw-400);
+}
+.container{
+    padding-block: 2rem;
+    width: 75%;
+    height: 90vh;
+    padding: 20px;
+    margin: auto;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    box-sizing: border-box;
+    
+}
+.box{
+    border-radius: 2%;
+    padding: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.purple{
+   background-color: rgba(137, 43, 226, 0.796);   
+   grid-column-start: 1;
+   grid-column-end: 3;
+   color: white;
+   background-image: url(https://kabir-sagiii.github.io/CSS_Grid_learn-grid-the-easy-way/images/bg-pattern-quotation.svg);
+   background-repeat: no-repeat;
+   background-position: top right 10%;
+   
+
+}
+.grey{
+    background-color: rgb(50, 68, 86);   
+    grid-column-start: 3;
+    color: white;
+    
+}
+.blue{
+    background-color: rgb(25, 25, 59);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    color: white;
+}
+.white{
+    background-color: white;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.aside{
+    background-color: rgba(245, 245, 245, 0.607);
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.image .imageset{
+    width: 1.75rem;
+    aspect-ratio: 1;
+    border-radius: 50%; 
+}
+.image{
+    width: 70%;
+    display: flex;
+    margin-bottom: 20px;
+}
+h6{
+    text-indent: 20px;
+    font-weight: 1000;
+    font-size: small;
+}
+.Verified{
+    /* color: rgba(245, 245, 245, 0.679); */
+    opacity: 40%;
+}
+.box p{
+    opacity: 60%;
+    font-size: ;
+}
